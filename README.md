@@ -41,8 +41,8 @@ https://github.com/null64-null/CPU-simulation/assets/127968084/a2da80fd-02da-4db
 <br><br>
 
 ### CPU
-作成したすべてのユニットを統合して、実際のCPUを論理回路で再現
 <img width="981" alt="スクリーンショット 2024-03-08 16 59 34" src="https://github.com/null64-null/CPU-simulation/assets/127968084/034c806e-4824-49b9-a3b6-4ed5a9377743">
+作成したすべてのユニットを統合して、実際のCPUを論理回路で再現
 <br><br>
 
 ## 今後やりたいことなど
