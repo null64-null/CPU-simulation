@@ -20,12 +20,13 @@ Logisimをダウンロードし、本リポジトリのファイルCPU.circを�
 ## 概要
 - 論理回路を用いて、演算命令（足し算など）を与えて、指定した数同士の演算がどのように行われるかをシュミレートしました
 - 演算に使いたい数字を格納するメモリ、CPU全体の動きを制御するコントローラ、演算器、命令デコーダーなどCPUに組み込まれているユニットの一つ一つを論理回路で作成し、統合してCPUにしました
+<br><br>
 
 ## CPU各部装置とCPUの構成図（一部抜粋）
 ### レジスタ
 https://github.com/null64-null/CPU-simulation/assets/127968084/a34fa3a8-3273-466d-bf64-07746a6b6add
 - 値を一時記憶する装置
-- iが保存したい値、sが記憶を行う際に入力する信号、eが記録した値を出力する時に入力する信号
+- iが記憶させたい値、sが記憶を行う際に入力する信号、eが記録した値を出力する時に入力する信号
 - iに値を設定し、sをオンにすると記憶される（displayは記憶されている値を表示している）その後sをオフにすると、iにどんな値を入力しても記憶は変更されず保持されたままになる。eをオンにすると記憶が外部に出力される。新しい値を記憶させたい場合は再びsをオンにする
 - CPUの各部で使用され、演算に用いる値や、メモリや命令が格納されているアドレスなど、各種値を一時記憶し、適切な場所に渡す役割を担っている。
 <br><br>
@@ -53,6 +54,6 @@ https://github.com/null64-null/CPU-simulation/assets/127968084/a2da80fd-02da-4db
 （LICENCE に記載）
 <br><br>
 
-【参考書籍】
+## 参考書籍
 本シミュレーションは、以下の書籍を参考にしました
-But How Do It Know? - The Basic Principles of Computers for Everyone  （J Clark Scott 著 ）
+- But How Do It Know? - The Basic Principles of Computers for Everyone  （J Clark Scott 著 ）
